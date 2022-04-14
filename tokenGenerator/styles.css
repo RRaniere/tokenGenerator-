@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+:root {
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-grey-1: white;
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+}
+body {
+  font-family: var(--ff-secondary);
+  background: black;
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+#tokenNumber {
+  font-size: 6rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+#tokenTime { 
+  width: 500px;
+  background-color:black;
+  border-radius: 20px;
+}
+
+#progressBar {
+  width: 0;
+  height: 20px;
+  background-color: white; 
+  text-align: center;
+  line-height: 20px;
+  color: black;
+  border-radius: 20px;
+}
+
+#tokenCheck {
+  font-family: var(--ff-secondary);
+  font-weight: bold;
+  height: 35px;
+  width: 70px;
+  border-radius: 10px;
+
+}
+
+#tokenInput{
+  font-family: var(--ff-secondary);
+  font-weight: bold;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
